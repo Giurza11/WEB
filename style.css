@@ -1,0 +1,37 @@
+/* global styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  /* text-decoration: overline;
+    text-decoration: underline;
+    text-decoration: line-through; */
+  text-decoration: none;
+}
+/* end of global style */
+/* index */
+header nav li {
+  text-align: right;
+  /*  text-align: center;
+     text-align: left; */
+}
+header nav li a {
+  color: #939caa;
+  /* color: rgb(147,156,170);
+    color: rgba(147,156,170, 1);
+    color: rgba(147,156,170, 0.39); */
+  font-weight: bold;
+  /* font-weight: none; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  /* letter-spacing: 10px; */
+}
+
+/* end of index */
