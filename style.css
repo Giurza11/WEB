@@ -3,35 +3,91 @@
   margin: 0;
   padding: 0;
 }
-
 li {
   list-style-type: none;
 }
-
 a {
-  /* text-decoration: overline;
-    text-decoration: underline;
-    text-decoration: line-through; */
   text-decoration: none;
 }
-/* end of global style */
-/* index */
-header nav li {
-  text-align: right;
-  /*  text-align: center;
-     text-align: left; */
+.suggestion {
+  background-color: rgb(219, 244, 226);
+  text-align: center;
 }
-header nav li a {
-  color: #939caa;
-  /* color: rgb(147,156,170);
-    color: rgba(147,156,170, 1);
-    color: rgba(147,156,170, 0.39); */
+.suggestion p {
   font-weight: bold;
-  /* font-weight: none; */
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   line-height: 25px;
-  /* letter-spacing: 10px; */
+  letter-spacing: 0;
+}
+.suggestion p a {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 32px;
+  letter-spacing: 0;
 }
 
-/* end of index */
+header h1 {
+  text-align: left;
+}
+header nav ul li {
+  text-align: center;
+}
+
+header ul li {
+  text-align: right;
+}
+header ul li span {
+  font-family: plus jakarta sans;
+  font-weight: bold;
+  font-size: 14px;
+
+  letter-spacing: 1px;
+}
+header ul li p {
+  font-family: plus jakarta sans;
+  font-weight: bold;
+  font-size: 18px;
+  /* line-height: არც ეს გამოვიდა; */
+}
+
+.first-section div span {
+  background-color: rgba(180, 121, 217, 0.15);
+
+  color: rgb(180, 121, 217);
+  font-family: Plus Jakarta Sans;
+  font-weight: bold;
+  font-size: 18px;
+}
+.first-section div h2 {
+  font-family: Plus Jakarta Sans;
+  font-weight: bold;
+  font-size: 68px;
+}
+.first-section div p {
+  font-family: Plus Jakarta Sans;
+  font-weight: bold;
+  font-size: 18px;
+}
+.first-section div a {
+  font-family: Plus Jakarta Sans;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: rgb(46, 187, 119);
+}
+.first-section ul h3 {
+  font-weight: bold;
+  font-size: 48px;
+}
+.first-section ul p {
+  font-weight: medium;
+  font-size: 18px;
+}
+.second-section {
+  text-align: center;
+  background-color: rgb(245, 245, 245);
+}
+.second-section p {
+  font-family: Plus Jakarta Sans;
+  font-weight: bold;
+  font-size: 24;
+}
