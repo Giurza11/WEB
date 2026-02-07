@@ -1,0 +1,311 @@
+/* --- GLOBAL SETTINGS --- */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* --- TOP HEADER BANNER --- */
+.top-header {
+  background-color: #d1f4e2;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.top-header h2 {
+  display: inline;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.top-header a {
+  color: #000000;
+  font-weight: 700;
+  margin-left: 15px;
+  text-decoration: underline;
+}
+
+/* --- MAIN NAVIGATION --- */
+.top2-header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.header-links {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.header-links li {
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.header-links a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+}
+
+/* --- HERO SECTION --- */
+.top-main {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.highlight {
+  background-color: #f2edff;
+  color: #b479d9;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.top-main h3 {
+  font-size: 55px;
+  font-weight: 800;
+  line-height: 65px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.top-main p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #7e7e7e;
+  margin-bottom: 40px;
+}
+
+.btn-primary {
+  background-color: #2ebb77;
+  color: #ffffff;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+/* --- STEPS SECTION (How it works) --- */
+.reasons-section {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #ffffff;
+}
+
+.reasons-section h2 {
+  font-size: 36px;
+  margin-bottom: 50px;
+  font-weight: 700;
+}
+
+.steps li {
+  display: inline-block;
+  width: 30%;
+  margin-left: 1%;
+  margin-right: 1%;
+  vertical-align: top;
+  text-align: center;
+}
+
+.steps h3 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+.steps p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #7e7e7e;
+}
+
+/* --- PRODUCT GRID --- */
+.products {
+  background-color: #f9f9f9;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.product-grid li {
+  display: inline-block;
+  width: 250px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 30px;
+  text-align: left;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.product-grid a {
+  font-weight: 700;
+  font-size: 18px;
+  color: #000000;
+  margin-top: 15px;
+  display: block;
+}
+
+.product-grid p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #2ebb77;
+  font-weight: 700;
+}
+
+/* --- FEATURES SECTION --- */
+.features {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.feature-list {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.feature-list li {
+  display: inline-block;
+  width: 28%;
+  margin: 20px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.feature-list h3 {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+/* --- FOOTER SECTIONS --- */
+.bottom-part {
+  background-color: #f5f5f5;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+.main-info,
+.information {
+  display: inline-block;
+  width: 200px;
+  margin: 20px;
+  vertical-align: top;
+  text-align: left;
+}
+
+.information h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.information li {
+  margin-bottom: 10px;
+}
+
+.information a {
+  color: #7e7e7e;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.newsletter {
+  margin-top: 30px;
+}
+
+.newsletter p {
+  color: #7e7e7e;
+  font-size: 14px;
+  line-height: 22px;
+  margin-top: 10px;
+}
+
+/* --- PAYMENT METHODS --- */
+.payment {
+  background-color: #eeeeee;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.payment ul {
+  margin-bottom: 20px;
+}
+
+.payment li {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.payment p {
+  font-size: 14px;
+  color: #7e7e7e;
+  letter-spacing: 0.5px;
+}
+
+.color {
+  /* display: inline-block;
+  width: 14px;
+  height: 14px;
+  text-indent: -9999px; */
+  /* font-size: 0; */
+  /*  color: transparent; */
+  /* border-radius: 7px;
+  background: #d10000; */
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+  background-color: #000000; /* hex color */
+  background-color: rgb(0, 0, 0); /* rgb color */
+  background-color: rgba(255, 35, 35, 0.2); /* rgba color */
+  background-image: url(../images/test.png);
+  background-repeat: no-repeat;
+  /* background-repeat: repeat-x;
+  background-repeat: repeat-y; */
+  background-position: left top;
+  background-position: center top;
+  background-position: right top;
+  background-position: center center;
+  background-position: 50% 30px; /* horizontal/vertical */
+  /* background-size: cover; */
+  background-size: contain;
+  background-size: 50px 150px;
+  background-size: 50% auto; /* width/height */
+  background-size: auto 60%; /* width/height */
+
+  background: rgba(255, 35, 35, 0.2) url(../images/test.png) no-repeat center
+    center;
+  background-size: contain;
+}

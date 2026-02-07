@@ -3,13 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>TeeSpace</title>
   </head>
   <body>
+    <span class="color">color 1</span>
     <header>
       <section class="top-header">
         <div>
+          <!-- დაარვი კლასით სახელი -->
           <img src="images/1f525.svg fill.png" alt="Free shipping banner" />
           <h2>Free shipping on all U.S. orders $50+</h2>
           <a href="#">Shop Now</a>
@@ -28,135 +30,208 @@
             <li><a href="#">Shop</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">Pages</a></li>
-            <li>
-              <button><img src="images/-element.png" /></button>
-            </li>
-
-            <li>
-              <a href="#">
-                <img src="images/Text.png" alt="Shopping cart" />
-              </a>
-            </li>
           </ul>
+          <button><img src="images/-element.png" /></button>
         </nav>
-        <div>
-          <a href="#">
-            <img src="images/user-icon.png" alt="User account" />
-          </a>
-          <p>Hotline:</p>
-          <strong>00 1900 8188</strong>
-          <a href="#">Sign Up</a>
-        </div>
+        <ul class="right-header">
+          <li>
+            <a href="#">
+              <img src="images/Text.png" alt="Shopping cart" />
+            </a>
+          </li>
+          <li>
+            Hotline:
+            <a href="tel:001900 8188">00 1900 8188</a>
+          </li>
+          <li>
+            <a href="#">Sign Up</a>
+          </li>
+        </ul>
       </section>
     </header>
     <main>
       <section class="top-main">
-        <h2 class="highlight">Create your own</h2>
+        <span>Create your own</span>
         <h3>Make the most of printing</h3>
         <p>
-          What’s more, we do it right! A full administration printing
+          What's more, we do it right! A full administration printing
           background. Print shirts for yourself or your online business.
         </p>
-        <a href="#" class="btn-primary">Shop Now</a>
-        <div class="how-we-work">
-          <p>How We Work</p>
-          <a href="#">
-            <img src="images/play-icon.png" alt="Play video" />
-          </a>
-        </div>
+        <ul class="action-buttons">
+          <li><a href="#" class="btn-primary">Shop Now</a></li>
+          <li>
+            <a href="#">
+              How We Work
+              <img src="images/play-icon.png" alt="Play video" />
+            </a>
+          </li>
+        </ul>
+        <ul class="profit">
+          <li><span>4k+</span>Collections</li>
+          <li><span>9k+</span>items trusted to deliver</li>
+        </ul>
         <img src="images/hero-decoration.png" alt="" />
       </section>
       <section class="company-section">
-        <h2 class="visually-hidden">Customer testimonial</h2>
         <p>
           “We've got custom T-shirts in a range of fits and sizes, so everyone
           can wear your brand or message.”
         </p>
-        <img src="images/company-logos.png" alt="Partner company logos" />
-      </section>
-      <section class="reasons-section">
-        <h2>How it works</h2>
-        <ul class="steps">
-          <li>
-            <img src="images/main1.jpg" alt="Upload shirt design" />
-            <h3>Add your shirt design</h3>
-            <p>Lorem ipsum det, cowec tetur duis nec fringi det.</p>
-          </li>
-          <li>
-            <img src="images/main2.png" alt="Custom artwork review" />
-            <h3>Custom artwork & review</h3>
-            <p>Lorem ipsum det, cowec tetur duis nec fringi det.</p>
-          </li>
-          <li>
-            <img src="images/main3.png" alt="Finished product" />
-            <h3>Enjoy your product</h3>
-            <p>Lorem ipsum det, cowec tetur duis nec fringi det.</p>
-          </li>
+        <ul>
+          <li><a href="#" target="_blank">spotify</a></li>
+          <li><a href="#" target="_blank">freedly</a></li>
+          <li><a href="#" target="_blank">lattice</a></li>
+          <li><a href="#" target="_blank">hopin</a></li>
+          <li><a href="#" target="_blank">spotify</a></li>
+          <li><a href="#" target="_blank">upwork</a></li>
+          <li><a href="#" target="_blank">hopin</a></li>
         </ul>
       </section>
+      <section class="reasons-section">
+        <!-- reasons-section -->
+        <h2>How to create custom shirts</h2>
+        <p>
+          Lorem ipsum det, cowec tetur duis necgi det, consec t eturlagix
+          adipiscing eliet, cowec tetopak ec tetur duis necgi
+        </p>
+        <div class="custom-item">
+          <!-- custom-item -->
+          <img src="images/main1.jpg" alt="Upload shirt design" />
+          <span>1</span>
+          <div class="custom-item__info">
+            <h3>Add your shirt design</h3>
+            <p>Lorem ipsum det, cowec tetur duis nec fringi det.</p>
+          </div>
+        </div>
+        <!-- End of custom-item -->
+        <div class="custom-item custom-item--right-image">
+          <img src="images/main2.png" alt="Custom artwork review" />
+          <span>2</span>
+          <div class="custom-item__info">
+            <h3>Custom artwork & review</h3>
+            <p>Lorem ipsum det, cowec tetur duis nec fringi det.</p>
+          </div>
+        </div>
+        <div class="custom-item">
+          <img src="images/main3.png" alt="Finished product" />
+          <span>3</span>
+          <div class="custom-item__info">
+            <h3>Enjoy your product</h3>
+            <p>Lorem ipsum det, cowec tetur duis nec fringi det.</p>
+          </div>
+        </div>
+      </section>
+      <!-- End of reasons-section -->
       <section class="feature-split">
-        <h2 class="visually-hidden">Product feature</h2>
         <img
           src="images/photo-of-neil-armstrong.png"
           alt="Man wearing custom t-shirt"
         />
-        <div>
+        <div class="feature-split__info">
           <h3>Free and easy way to bring your ideas to life</h3>
           <p>Lorem ipsum det, cowec tetur duis necgi det.</p>
-          <a href="#" class="btn-secondary">Get Started</a>
+          <a href="#" class="feature-split__button">Get Started</a>
         </div>
       </section>
       <section class="benefits">
         <h2>T-shirt printing made easy</h2>
         <p>Lorem ipsum det, cowec tetur duis necgi det.</p>
         <ul>
+          <li><h3>Premium quality custom t-shirts</h3></li>
           <li>
-            <h3>Premium quality custom t-shirts</h3>
-            <p>Lorem ipsum det, cowec tetur duis necgi det.</p>
+            <h3>Easy to create & customize</h3>
+            <p>
+              Lorem ipsum det, cowec tetur duis necgi det, consec teturlagix
+              adipiscing eliet
+            </p>
           </li>
-          <li>
-            <h3>Thousands of free templates</h3>
-          </li>
-          <li>
-            <h3>Free standard shipping</h3>
-          </li>
+          <li><h3>Thousands of free templates</h3></li>
+          <li><h3>Free standard shipping</h3></li>
         </ul>
+        <!-- სურათი დაამატე -->
       </section>
+
       <section class="products">
         <h2>Our picks for you</h2>
         <p>Lorem ipsum det, cowec tetur duis necgi det.</p>
-        <ul class="product-grid">
-          <li>
-            <img src="images/choose 1.png" alt="Crewneck Sweatshirt" />
-            <a href="#">Crewneck Sweatshirt</a>
-            <p><strong>$29.00</strong> <del>$39.00</del></p>
-          </li>
-          <li>
+        <div class="products__item">
+          <div class="products__item-image">
+            <span class="products__item-discount">-26%</span>
+            <!-- <span class="products__item-state">new</span> -->
             <img src="images/choose 2.png" alt="Midweight Cotton Tee" />
-            <a href="#">Midweight Cotton Tee</a>
-            <p>$26.00 – $29.00</p>
-          </li>
-          <li>
+            <span class="products__item-staus">sold out</span>
+          </div>
+          <h2><a href="#">Midweight Cotton Tee</a></h2>
+          <ul class="products__item-price">
+            <li class="products__item-price--saled">$29.00</li>
+            <li class="products__item-price--starter">$39.00</li>
+          </ul>
+        </div>
+        <div class="products__item">
+          <div class="products__item-image">
+            <span class="products__item-discount">sale</span>
+            <span class="products__item-state">new</span>
             <img src="images/choose 3.png" alt="Cotton tee shirt" />
-            <a href="#">Midweight Cotton Tee</a>
-            <p>$26.00 – $29.00</p>
-          </li>
-          <li>
+            <!-- <span class="products__item-staus">sold out</span> -->
+          </div>
+          <h2><a href="#">Midweight Cotton Tee</a></h2>
+          <ul class="products__item-price">
+            <li>$26.00 -</li>
+            <li>$29.00</li>
+          </ul>
+          <ul class="products__item-color">
+            <li>color 1</li>
+            <li>color 2</li>
+            <li>color 3</li>
+            <li>color 4</li>
+            <li>color 5</li>
+          </ul>
+        </div>
+        <div class="products__item">
+          <div class="products__item-image">
+            <span class="products__item-discount">sale</span>
+            <span class="products__item-state">new</span>
             <img src="images/choose 4.png" alt="Premium cotton tee" />
-            <a href="#">Midweight Cotton Tee</a>
-            <p>$31.00</p>
-          </li>
-        </ul>
+            <!-- <span class="products__item-staus">sold out</span> -->
+          </div>
+          <h2><a href="#">Midweight Cotton Tee</a></h2>
+          <ul class="products__item-price">
+            <li>$26.00 -</li>
+            <li>$29.00</li>
+          </ul>
+          <ul class="products__item-color">
+            <li>color 1</li>
+            <li>color 2</li>
+            <li>color 3</li>
+            <li>color 4</li>
+            <li>color 5</li>
+          </ul>
+        </div>
+        <div class="products__item">
+          <div class="products__item-image">
+            <span class="products__item-discount">sale</span>
+            <span class="products__item-state">new</span>
+            <img src="images/choose 4.png" alt="Premium cotton tee" />
+            <!-- <span class="products__item-staus">sold out</span> -->
+          </div>
+          <h2><a href="#">Midweight Cotton Tee</a></h2>
+          <ul class="products__item-price">
+            <li>$26.00 -</li>
+            <li>$29.00</li>
+          </ul>
+        </div>
       </section>
       <section class="promo-banners">
-        <h2 class="visually-hidden">Promotions</h2>
         <img src="images/banner-26.png" alt="Custom printing promotion" />
         <img src="images/banner-27.png" alt="Discount t-shirt offer" />
       </section>
       <section class="features">
-        <h2>Why customize products with TeeSpace?</h2>
-        <p>Lorem ipsum det, cowec tetur duis necgi det.</p>
-        <a href="#">View All Features</a>
+        <div class="features__info">
+          <h2>Why customize products with TeeSpace?</h2>
+          <p>Lorem ipsum det, cowec tetur duis necgi det.</p>
+          <a href="#">View All Features</a>
+        </div>
+
         <ul class="feature-list">
           <li>
             <img src="images/vector.png" alt="" />
@@ -189,16 +264,99 @@
             <p>Lorem ipsum det, cowec tetur duis necgi det.</p>
           </li>
         </ul>
-        <img src="images/banner-28.png" alt="Printing process illustration" />
+        <div class="features__custom-product">
+          <div class="features__custom-product-info">
+            <h2>Create your own custom products online!</h2>
+            <p>Free and easy way to bring your ideas to life</p>
+            <a href="#">Order Custom Shirts ></a>
+          </div>
+          <!-- სურათი წამოიღე დიზაინიდან -->
+          <img src="images/banner-28.png" alt="Printing process illustration" />
+        </div>
       </section>
       <section class="resources">
         <h2>More resources</h2>
         <p>Lorem ipsum det, cowec tetur duis necgi det.</p>
+        <div class="resources__item">
+          <!-- სურათი დააექსპორტე -->
+          <div class="resources__item-info">
+            <span>Design Services</span>
+            <h2>Make yourself happy with our T-shirt customer…</h2>
+            <ul>
+              <li><!-- დააექსპორტე კაცუნას სურათი --></li>
+              <li>
+                <span>by <b>admin</b></span>
+                <time>August 20, 2022</time>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="resources__item">
+          <!-- სურათი დააექსპორტე -->
+          <div class="resources__item-info">
+            <span>Print Company</span>
+            <span>Print Shop</span>
+            <h2>Make yourself happy with our T-shirt customer…</h2>
+            <ul>
+              <li><!-- დააექსპორტე კაცუნას სურათი --></li>
+              <li>
+                <span>by <b>admin</b></span>
+                <time>August 20, 2022</time>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="feedback">
+        <h2>What People Are Saying</h2>
+        <p>We provide support for more than 15K+ Businesses.</p>
+        <div class="feedback__item">
+          <ul>
+            <li><!-- დააექსპორტე სურათი --></li>
+            <li>
+              <b>Dean D.</b>
+              <span>Director</span>
+            </li>
+          </ul>
+          <p>
+            “ Great quality products - Flags, programs for exceptional
+            capacities, birthday, and occasion welcome are largely still
+            mainstream on paper.”
+          </p>
+        </div>
+        <div class="feedback__item">
+          <ul>
+            <li><!-- დააექსპორტე სურათი --></li>
+            <li>
+              <b>Dean D.</b>
+              <span>Director</span>
+            </li>
+          </ul>
+          <p>
+            “ Great quality products - Flags, programs for exceptional
+            capacities, birthday, and occasion welcome are largely still
+            mainstream on paper.”
+          </p>
+        </div>
+        <div class="feedback__item">
+          <ul>
+            <li><!-- დააექსპორტე სურათი --></li>
+            <li>
+              <b>Dean D.</b>
+              <span>Director</span>
+            </li>
+          </ul>
+          <p>
+            “ Great quality products - Flags, programs for exceptional
+            capacities, birthday, and occasion welcome are largely still
+            mainstream on paper.”
+          </p>
+        </div>
       </section>
     </main>
     <footer>
       <section class="footer-ad">
-        <h2 class="visually-hidden">Promotional banner</h2>
+        <!-- ეს სურათბი ფონად -->
         <div class="ad-left">
           <img src="media/link-1.png" alt="Child wearing t-shirt" />
           <img src="media/link-2.png" alt="Man wearing t-shirt" />
@@ -207,9 +365,14 @@
         <div class="ad-middle">
           <h3>Enjoy your vacations in the best T-shirts</h3>
           <p>T-shirts that keep you moving.</p>
-          <a href="#">Shop Now</a>
-          <a href="#">Contact Us</a>
+          <ul>
+            <li><a href="#">Shop Now</a></li>
+            <li>
+              <a href="#">Contact Us</a>
+            </li>
+          </ul>
         </div>
+        <!-- ეს სურათბი ფონად -->
         <div class="ad-right">
           <img src="media/banner-decor-25.jpg.png" alt="Child model" />
           <img src="media/link-4.png" alt="Woman model" />
@@ -217,7 +380,6 @@
         </div>
       </section>
       <section class="socialmedia">
-        <h2 class="visually-hidden">Social media links</h2>
         <ul>
           <li><a href="#" target="_blank" rel="noopener">Facebook</a></li>
           <li><a href="#" target="_blank" rel="noopener">Twitter</a></li>
@@ -227,7 +389,6 @@
         </ul>
       </section>
       <section class="bottom-part">
-        <h2 class="visually-hidden">Footer information</h2>
         <div class="main-info">
           <h3>
             <a href="#">
