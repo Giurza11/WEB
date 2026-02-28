@@ -309,3 +309,292 @@ a {
     center;
   background-size: contain;
 }
+
+/* teeSpace */
+.store-locator {
+  width: 1920px;
+  height: 48.8px;
+  font-size: 15px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: #f8f8f8;
+  color: #9b9b9b;
+}
+.logo-search {
+  width: 1920px;
+  height: 159.18px;
+}
+.logo-search .teespace {
+  width: 150px;
+  height: 40px;
+  margin-left: 15px;
+  padding: 0px;
+}
+.logo-search .button {
+  width: 124.2px;
+  height: 48px;
+  color: black;
+}
+.bottom-header {
+  width: 1420px;
+  height: 600px;
+  background-color: #2ebb77;
+}
+.bottom-header h2 {
+  font-size: 48px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.bottom-header p {
+  font-size: 20px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #7e7e7e;
+}
+.bottom-header .arrow-icon {
+  margin-left: 267px;
+  margin-top: 139.02px;
+  width: 435px;
+  height: 180.08px;
+}
+.bottom-header .curved-line {
+  margin-left: 366px;
+  margin-top: 229px;
+  width: 118px;
+  height: 22px;
+}
+.bottom-header .T-shirts {
+  margin-left: 818.77px;
+  margin-top: 127.02px;
+  width: 173.22px;
+  height: 172px;
+}
+.bottom-header .white-t-shirts {
+  margin-left: 1005.08px;
+  margin-top: 127.02px;
+  width: 198.4px;
+  height: 197px;
+}
+.bottom-header .printing-t-shirts {
+  margin-left: 825.82px;
+  margin-top: 324.02px;
+  width: 166.17px;
+  height: 165px;
+}
+.bottom-header .green-hoodie {
+  margin-left: 1004.07px;
+  margin-top: 338.02px;
+  width: 199.4px;
+  height: 198px;
+}
+.shopping-categories h2 {
+  font-size: 28px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  margin-left: 255px;
+  margin-top: 898.38;
+}
+.shopping-categories h3 {
+  font-size: 20px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.shopping-categories span {
+  font-size: 15px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #7e7e7e;
+}
+.promotional-banner img {
+  width: 720px;
+  height: 390px;
+}
+.promotional-banner h3 {
+  font-size: 32px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.promotional-banner p {
+  font-size: 20px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #7e7e7e;
+}
+.promotional-banner a {
+  font-size: 15px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #2ebb77;
+  border-radius: 15px;
+}
+.featured-products .New-Arrivals {
+  font-size: 32px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: black;
+}
+.featured-products h3 {
+  font-size: 32px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #7e7e7e;
+}
+.featured-products img {
+  width: 330px;
+  height: 440px;
+  border-radius: 15px;
+}
+/* ვერ გავაკეთე სურათი ფონად რაზეც იქნებოდა სპანი*/
+.hot-products h3 {
+  font: size 28px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: black;
+}
+.how-to-design {
+  width: 1410px;
+  height: 663.66px;
+  background-color: #b479d9;
+  border-radius: 12px;
+}
+.how-to-design h3 {
+  font: size 28px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: black;
+}
+.how-to-design p {
+  font-size: 18px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: black;
+  font-weight: bold;
+}
+.designs h3 {
+  font-size: 28px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.designs img {
+  width: 330px;
+  height: 240px;
+  border-radius: 12px;
+}
+.designs h4 {
+  font-size: 18px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: black;
+}
+.designs p {
+  font-size: 15px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #7e7e7e;
+}
+.intergrations h3 {
+  font-size: 28px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: black;
+}
+.intergrations img {
+  width: 218px;
+  height: 85.11px;
+}
+.newslatter img {
+  width: 720px;
+  height: 461.55px;
+}
+/*background ფოტო ვერ გავაკეთე */
+.newslatter .personal-information h3 {
+  font-size: 28px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: black;
+}
+.newslatter .featured-designs img {
+  width: 266px;
+  height: 266px;
+  border-radius: 12px;
+}
+.footer-top h4 {
+  font-size: 28px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: black;
+}
+.footer-top img {
+  width: 20px;
+  height: 36px;
+}
+.footer-top strong {
+  font-size: 20px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: bold;
+  color: black;
+}
+.footer-top .bold {
+  font-size: 18px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: bold;
+  color: black;
+}
+.footer-bottom img {
+  width: 45px;
+  height: 20px;
+}
+
+/* lab */
+/* a {
+  display: inline-block;
+  display: block;
+  background: #932ebb;
+}
+p {
+  background: pink;
+}
+h2 {
+  display: inline-block;
+  display: inline;
+  padding: 50px;
+  background: fuchsia;
+} */
+.templates-bock {
+  /* width: 690px; */
+  width: 35.94%;
+  max-width: 690px;
+  /* min-width: 320px; */
+  min-height: 360px;
+  padding: 57px 419px 68px 42px;
+  border-radius: 12px;
+  background: url(../images/thousands-of-free-temp.png) no-repeat center center;
+  background-size: cover;
+  /* box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.13); */
+}
+
+.templates-bock__title-elem,
+.templates-bock__paragraph-elemnt,
+.templates-bock__button-elem {
+  max-width: 229px;
+}
+
+.templates-bock__title-elem {
+  margin-bottom: 17px;
+}
+
+.templates-bock__title-elem a {
+  color: #000000;
+  font-size: 32px;
+  line-height: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.templates-bock__paragraph-elemnt {
+  color: #7e7e7e;
+  font-size: 18px;
+  line-height: 33px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 31px;
+}
+
+.templates-bock__button-elem {
+  color: #fff;
+  font-size: 15px;
+  line-height: 48px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 14px 25px;
+  border-radius: 12px;
+  background-color: #2ebb77;
+}
+
+.templates-bock__button-elem--violt-modifier {
+  background-color: #932ebb;
+}
+
+.templates-bock__button-elem:hover {
+  color: blue;
+  background: #d10000;
+}
+/* end of lab */
