@@ -17,14 +17,14 @@
       <section class="navigation">
         <nav>
           <ul class="navigation__list">
-            <li class="navigation__item"><a href="#">Home</a></li>
+            <li id="green"><a href="#">Home</a></li>
             <li class="navigation__item"><a href="#">TeeSpace</a></li>
             <li class="navigation__item"><a href="#">Shop</a></li>
             <li class="navigation__item"><a href="#">Blog</a></li>
             <li class="navigation__item"><a href="#">Pages</a></li>
           </ul>
         </nav>
-        <h1>
+        <h1 class="navigation__logo">
           <a href="#">
             <img src="images/tespc.png" alt="TeeSpace logo" />
           </a>
@@ -59,7 +59,7 @@
     <main>
       <section class="featured">
         <div class="featured__content">
-          <img src="images/cyan-blue-hoodies.png" />
+          <img src="images/cyan-blue-hoodies.png" class="featured__ad" />
           <span class="featured__rating">Rated 4.9 of 5.0</span>
           <ul class="featured__stars">
             <li><img src="images/yellow-star.png" alt="Rating" /></li>
@@ -82,10 +82,10 @@
               <img src="images/tick.png" />
               <p>Mix and match colors, sizes, and designs</p>
             </li>
-            <li>
+            <li class="featured__item">
               <a href="#">Get Started Today</a>
             </li>
-            <li>
+            <li class="featured__unique">
               <a href="#">
                 <p>How We Work</p>
                 <img src="images/play.png" />
@@ -96,6 +96,8 @@
       </section>
       <section class="collections">
         <div class="collections__products">
+          <h3>T-shirt Printing for Everyone</h3>
+          <p>What's more, we do it right!</p>
           <ul class="collections__list">
             <li class="collections__item">
               <a href="#">
@@ -150,7 +152,7 @@
             </li>
             <li class="types__item">
               <a href="#">
-                <img src="images/sportswear.png" alt="Sportswear" />
+                <img src="images/girl-sportswear.png" alt="Sportswear" />
                 <p>Women's Collection</p>
               </a>
             </li>
@@ -167,45 +169,45 @@
               <a href="#">
                 <img src="images/black-tanktop.png" alt="black tanktop" />
               </a>
-              <p>Zone Sweatshirt</p>
+              <h4>Zone Sweatshirt</h4>
               <p>$19.95 – $159.95</p>
             </li>
             <li>
               <a href="#">
                 <img src="images/black-girl-t-shirt.png" alt="black T-shirt" />
               </a>
-              <p>Zoo Men’s t-shirt</p>
+              <h4>Zoo Men’s t-shirt</h4>
               <p>$14.95 – $119.95</p>
             </li>
             <li>
               <span>Hot</span>
-              <a href="#">
-                <img src="images/sweater.png" alt="sweater" class="sweater" />
-              </a>
-              <p>Toddler T-shirt</p>
-              <p>$26.00</p>
-            </li>
-            <li>
               <a href="#">
                 <img
                   src="images/child-tanktop.png"
                   alt="child wearing a Tanktop"
                 />
               </a>
-              <p>Fine Jersey Tee</p>
-              <p>$28.00</p>
-              <p>$31.00</p>
+              <h4>Toddler T-shirt</h4>
+              <p>$26.00</p>
             </li>
             <li>
-              <span>-10%</span>
-              <span>Hot</span>
               <a href="#">
                 <img
                   src="images/grey-child-tanktop.png"
                   alt="child wearing a Tanktop"
                 />
               </a>
+              <h4>Fine Jersey Tee</h4>
+              <p>$28.00</p>
+              <p>$31.00</p>
             </li>
+            <li>
+              <span>-10%</span>
+              <span>Hot</span>
+              <a href="#"> </a>
+            </li>
+          </ul>
+          <ul>
             <li>
               <a href="#">
                 <img
@@ -351,12 +353,14 @@
               <p>$14.95 – $119.95</p>
             </li>
             <li class="price-of__item">
+              <span>-10%</span>
               <span>Hot</span>
               <a href="#">
-                <img src="images/sweater.png" alt="sweater" class="sweater" />
+                <img
+                  src="images/grey-child-tanktop.png"
+                  alt="child wearing a Tanktop"
+                />
               </a>
-              <p>Toddler T-shirt</p>
-              <p>$26.00</p>
             </li>
             <li class="price-of__item">
               <a href="#">
@@ -368,16 +372,6 @@
               <p>Fine Jersey Tee</p>
               <p>$28.00</p>
               <p>$31.00</p>
-            </li>
-            <li class="price-of__item">
-              <span>-10%</span>
-              <span>Hot</span>
-              <a href="#">
-                <img
-                  src="images/grey-child-tanktop.png"
-                  alt="child wearing a Tanktop"
-                />
-              </a>
             </li>
           </ul>
         </div>
@@ -412,152 +406,200 @@
           <p>Get inspiration, updates, tips, &other assorted awesomeness.</p>
           <a href="#">Read latest articles &#x2C3;</a>
         </div>
-        <div class="article__item">
-          <a href="#">
-            <img src="images\white-teespace.png" alt="white t-shirt" />
-          </a>
-          <span>Design Services</span>
-          <span>August 20, 2022</span>
-          <a href="#">
-            <h4>Make yourself happy with our T-shirt customer designer</h4>
-          </a>
-        </div>
-        <div class="article__item">
-          <a href="#">
-            <img src="images\designed-hoodie.png" alt="designed hoodie" />
-          </a>
-          <span>Print Company</span>
-          <span>August 20, 2022</span>
-          <a href="#">
-            <h4>Are you ready to make it awesome with us</h4>
-          </a>
-        </div>
-        <div class="article__item">
-          <a href="#">
-            <img src="images\model-laying.png" alt="model girl" />
-          </a>
-          <span>Print Company</span>
-          <span>August 20, 2022</span>
-          <a href="#">
-            <h4>The best custom T-shirt designer WordPress theme</h4>
-          </a>
-        </div>
+        <ul class="article__list">
+          <li class="article__item">
+            <a href="#">
+              <img src="images\white-teespace.png" alt="white t-shirt" />
+            </a>
+            <span>Design Services</span>
+            <time>August 20, 2022</time>
+            <a href="#">
+              <h4>Make yourself happy with our T-shirt customer designer</h4>
+            </a>
+          </li>
+          <li class="article__item">
+            <a href="#">
+              <img src="images\designed-hoodie.png" alt="designed hoodie" />
+            </a>
+            <span>Print Company</span>
+            <time>August 20, 2022</time>
+            <a href="#">
+              <h4>Are you ready to make it awesome with us</h4>
+            </a>
+          </li>
+          <li class="article__item">
+            <a href="#">
+              <img src="images\model-laying.png" alt="model girl" />
+            </a>
+            <span>Print Company</span>
+            <time>August 20, 2022</time>
+            <a href="#">
+              <h4>The best custom T-shirt designer WordPress theme</h4>
+            </a>
+          </li>
+        </ul>
         <div class="article__promotion">
           <h3>Enjoy up your vacations in the best T-shirts</h3>
           <p>T-shirts that keep you moving.</p>
           <a href="#">Shop Now</a>
           <a href="#">Contact Us</a>
+          <img src="images/banner.png" />
         </div>
       </section>
     </main>
     <footer>
-      <section class="footer-ad">
-        <h2 class="visually-hidden">Promotional banner</h2>
-        <div class="ad-left">
-          <img src="media/link-1.png" alt="Child wearing t-shirt" />
-          <img src="media/link-2.png" alt="Man wearing t-shirt" />
-          <img src="media/link-3.png" alt="Woman wearing t-shirt" />
-        </div>
-        <div class="ad-middle">
-          <h3>Enjoy your vacations in the best T-shirts</h3>
-          <p>T-shirts that keep you moving.</p>
-          <a href="#">Shop Now</a>
-          <a href="#">Contact Us</a>
-        </div>
-        <div class="ad-right">
-          <img src="media/banner-decor-25.jpg.png" alt="Child model" />
-          <img src="media/link-4.png" alt="Woman model" />
-          <img src="media/banner-decor-26.jpg.png" alt="Man model" />
-        </div>
-      </section>
-      <section class="socialmedia">
-        <h2 class="visually-hidden">Social media links</h2>
-        <ul>
-          <li><a href="#" target="_blank" rel="noopener">Facebook</a></li>
-          <li><a href="#" target="_blank" rel="noopener">Twitter</a></li>
-          <li><a href="#" target="_blank" rel="noopener">Instagram</a></li>
-          <li><a href="#" target="_blank" rel="noopener">YouTube</a></li>
-          <li><a href="#" target="_blank" rel="noopener">Pinterest</a></li>
-        </ul>
-      </section>
-      <section class="bottom-part">
-        <h2 class="visually-hidden">Footer information</h2>
-        <div class="main-info">
-          <h3>
-            <a href="#">
-              <img src="images/Link → logo-black.png.png" alt="TeeSpace logo" />
-            </a>
-          </h3>
-          <ul>
-            <li><a href="mailto:hello@teespace.io">hello@teespace.io</a></li>
-            <li><a href="tel:+020360383996">+02 036 038 3996</a></li>
-            <li>3665 Paseo Place, Suite 0960</li>
-            <li>San Diego</li>
+      <section class="bottom">
+        <div class="bottom__top">
+          <ul class="bottom__list">
+            <li>
+              <h4>
+                <a href="#">
+                  <img src="images/tespc.png" alt="teespace logo" />
+                </a>
+              </h4>
+            </li>
+            <li>
+              <p>hello@teespace.io</p>
+            </li>
+            <li>
+              <a href="tel:+995 599 96 80 56">+02 036 038 3996</a>
+            </li>
+            <li>
+              <address>3665 Paseo Place, Suite 0960 San Diego</address>
+            </li>
+          </ul>
+          <ul class="bottom__list">
+            <li>
+              <h5>Information</h5>
+            </li>
+            <li>
+              <p>About us</p>
+            </li>
+            <li>
+              <p>Our Blog</p>
+            </li>
+            <li>
+              <p>Start a Return</p>
+            </li>
+            <li>
+              <p>Contact Us</p>
+            </li>
+            <li>
+              <p>Shipping FAQ</p>
+            </li>
+          </ul>
+          <ul class="bottom__list">
+            <li>
+              <h5>Services</h5>
+            </li>
+            <li>
+              <p>Printing Services</p>
+            </li>
+            <li>
+              <p>Digital Scanning</p>
+            </li>
+            <li>
+              <p>Design Services</p>
+            </li>
+            <li>
+              <p>Copying Services</p>
+            </li>
+            <li>
+              <p>Print on Demand</p>
+            </li>
+          </ul>
+          <ul class="bottom__list">
+            <li>
+              <h5>Useful links</h5>
+            </li>
+            <li>
+              <p>My Account</p>
+            </li>
+            <li>
+              <p>Print Provider</p>
+            </li>
+            <li>
+              <p>Become a Partner</p>
+            </li>
+            <li>
+              <p>Custom Products</p>
+            </li>
+            <li>
+              <p>Make your own shirt</p>
+            </li>
+          </ul>
+          <ul class="bottom__list">
+            <li>
+              <h5>Newsletter</h5>
+            </li>
+            <li>
+              <p>Subscribe to our newsletter.</p>
+            </li>
+            <li>
+              <input type="email" />
+            </li>
+            <li>
+              <button>Subscribe</button>
+            </li>
           </ul>
         </div>
-        <div class="information">
-          <h4>Information</h4>
-          <ul>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Our Blog</a></li>
-            <li><a href="#">Start a Return</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Shipping FAQ</a></li>
+        <div class="bottom__underside">
+          <p>&copy; 2022 TeeSpace. All rights reserved.</p>
+          <ul class="bottom__companies">
+            <li class="bottom__item">
+              <a href="#" target="_blank" rel="noopener">
+                <img src="images/American-express.png" alt="American Express" />
+              </a>
+            </li>
+            <li class="bottom__item">
+              <a href="#" target="_blank" rel="noopener">
+                <img src="images/Apple-pay.png" alt="Apple Pay" />
+              </a>
+            </li>
+            <li class="bottom__item">
+              <a href="#" target="_blank" rel="noopener">
+                <img src="images/Google-play.jpg" alt="Google Pay" />
+              </a>
+            </li>
+            <li class="bottom__item">
+              <a href="#" target="_blank" rel="noopener">
+                <img src="images/mastercard.png" alt="Mastercard" />
+              </a>
+            </li>
+            <li class="bottom__item">
+              <a href="#" target="_blank" rel="noopener">
+                <img src="images/O-pay.png" alt="O Pay" />
+              </a>
+            </li>
+            <li class="bottom__item">
+              <a href="#" target="_blank" rel="noopener">
+                <img src="images/Visa.png" alt="Visa" />
+              </a>
+            </li>
+          </ul>
+          <ul class="bottom__white">
+            <li>
+              <a href="#">
+                <img src="images/twitter-in-white.png" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/facebook-in-white.png" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/instagram-in-white.png" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/Youtube-in-white.png" />
+              </a>
+            </li>
           </ul>
         </div>
-        <div class="information">
-          <h4>Useful Links</h4>
-          <ul>
-            <li><a href="#">My Account</a></li>
-            <li><a href="#">Print Provider</a></li>
-            <li><a href="#">Become a Partner</a></li>
-            <li><a href="#">Custom Products</a></li>
-            <li><a href="#">Make your own shirt</a></li>
-          </ul>
-          <div class="newsletter">
-            <h4>Newsletter</h4>
-            <p>
-              Get the latest news, events &amp; more delivered to your inbox.
-            </p>
-            <img src="images/" alt="Email subscription form" />
-          </div>
-        </div>
-      </section>
-      <section class="payment">
-        <h2s>Payment methods</h2s>
-        <ul class="payment__companies">
-          <li class="payment__item">
-            <a href="#" target="_blank" rel="noopener">
-              <img src="images/American-express.png" alt="American Express" />
-            </a>
-          </li>
-          <li class="payment__item">
-            <a href="#" target="_blank" rel="noopener">
-              <img src="images/Apple-pay.png" alt="Apple Pay" />
-            </a>
-          </li>
-          <li class="payment__item">
-            <a href="#" target="_blank" rel="noopener">
-              <img src="images/Google-play.jpg" alt="Google Pay" />
-            </a>
-          </li>
-          <li class="payment__item">
-            <a href="#" target="_blank" rel="noopener">
-              <img src="images/mastercard.png" alt="Mastercard" />
-            </a>
-          </li>
-          <li class="payment__item">
-            <a href="#" target="_blank" rel="noopener">
-              <img src="images/O-pay.png" alt="O Pay" />
-            </a>
-          </li>
-          <li class="payment__item">
-            <a href="#" target="_blank" rel="noopener">
-              <img src="images/Visa.png" alt="Visa" />
-            </a>
-          </li>
-        </ul>
-        <p>&copy; 2022 TeeSpace. All rights reserved.</p>
       </section>
     </footer>
   </body>

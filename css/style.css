@@ -1,600 +1,292 @@
-/* --- GLOBAL SETTINGS --- */
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: "Plus Jakarta Sans", sans-serif;
-  color: #000000;
-  background-color: #ffffff;
-}
-
-li {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-/* --- TOP HEADER BANNER --- */
-.top-header {
-  background-color: #d1f4e2;
-  text-align: center;
-  padding-top: 12px;
-  padding-bottom: 12px;
-}
-
-.top-header h2 {
-  display: inline;
-  font-size: 14px;
-  font-weight: 700;
-}
-
-.top-header a {
-  color: #000000;
-  font-weight: 700;
-  margin-left: 15px;
-  text-decoration: underline;
-}
-
-/* --- MAIN NAVIGATION --- */
-.top2-header {
-  padding-top: 25px;
-  padding-bottom: 25px;
-  text-align: center;
-  background-color: #ffffff;
-}
-
-.header-links {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.header-links li {
-  display: inline-block;
-  margin-left: 15px;
-  margin-right: 15px;
-}
-
-.header-links a {
-  font-size: 16px;
-  font-weight: 600;
-  color: #000000;
-}
-
-/* --- HERO SECTION --- */
-.top-main {
-  text-align: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.highlight {
-  background-color: #f2edff;
+.sale {
+  widths: 1920px;
+  height: 57px;
   color: #b479d9;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 1px;
+  background-color: #f4eefa;
 }
-
-.top-main h3 {
-  font-size: 55px;
-  font-weight: 800;
-  line-height: 65px;
-  margin-top: 30px;
-  margin-bottom: 25px;
-}
-
-.top-main p {
-  font-size: 18px;
-  line-height: 30px;
-  color: #7e7e7e;
-  margin-bottom: 40px;
-}
-
-.btn-primary {
-  background-color: #2ebb77;
-  color: #ffffff;
-  padding-top: 18px;
-  padding-bottom: 18px;
-  padding-left: 40px;
-  padding-right: 40px;
-  font-weight: 700;
-  font-size: 16px;
-}
-
-/* --- STEPS SECTION (How it works) --- */
-.reasons-section {
+.sale h2 {
   text-align: center;
-  padding-top: 80px;
-  padding-bottom: 80px;
-  background-color: #ffffff;
+  font-family:
+    plus Jakarta Sans,
+    sans-serif;
+  font-size: 15px;
+  padding-left: 787px;
+  padding-top: 1px;
 }
-
-.reasons-section h2 {
-  font-size: 36px;
-  margin-bottom: 50px;
-  font-weight: 700;
-}
-
-.steps li {
-  display: inline-block;
-  width: 30%;
-  margin-left: 1%;
-  margin-right: 1%;
-  vertical-align: top;
-  text-align: center;
-}
-
-.steps h3 {
-  margin-top: 20px;
-  margin-bottom: 15px;
-  font-size: 22px;
-}
-
-.steps p {
-  font-size: 16px;
-  line-height: 26px;
-  color: #7e7e7e;
-}
-
-/* --- PRODUCT GRID --- */
-.products {
-  background-color: #f9f9f9;
-  padding-top: 80px;
-  padding-bottom: 80px;
-  text-align: center;
-}
-
-.product-grid li {
-  display: inline-block;
-  width: 250px;
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-top: 30px;
-  text-align: left;
-  background-color: #ffffff;
-  padding: 10px;
-}
-
-.product-grid a {
-  font-weight: 700;
-  font-size: 18px;
-  color: #000000;
-  margin-top: 15px;
-  display: block;
-}
-
-.product-grid p {
+.sale img {
+  width: 12px;
+  height: 12px;
+  margin-left: 1885px;
   margin-top: 10px;
-  font-size: 16px;
+}
+.navigation {
+  width: 1920px;
+  height: 80px;
+}
+.navigation__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation__list li {
+  display: inline-block;
+  position: relative;
+}
+
+#green a {
   color: #2ebb77;
-  font-weight: 700;
+  font-weight: bold;
 }
 
-/* --- FEATURES SECTION --- */
-.features {
-  padding-top: 80px;
-  padding-bottom: 80px;
-  text-align: center;
+.navigation__item:nth-child(2) {
+  left: 91px;
+  top: 40px;
 }
 
-.feature-list {
-  margin-top: 50px;
-  text-align: center;
+.navigation__item:nth-child(3) {
+  left: 210px;
+  top: 40px;
 }
 
-.feature-list li {
-  display: inline-block;
-  width: 28%;
-  margin: 20px;
-  text-align: left;
-  vertical-align: top;
+.navigation__item:nth-child(4) {
+  left: 296px;
+  top: 40px;
 }
 
-.feature-list h3 {
-  font-size: 20px;
-  margin-top: 15px;
-  margin-bottom: 10px;
-  font-weight: 700;
+.navigation__item:nth-child(5) {
+  left: 376px;
+  top: 40px;
 }
 
-/* --- FOOTER SECTIONS --- */
-.bottom-part {
-  background-color: #f5f5f5;
-  padding-top: 70px;
-  padding-bottom: 70px;
-  text-align: center;
+.navigation__list a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
-
-.main-info,
-.information {
-  display: inline-block;
-  width: 200px;
-  margin: 20px;
-  vertical-align: top;
-  text-align: left;
-}
-
-.information h4 {
-  font-size: 20px;
-  margin-bottom: 20px;
-  font-weight: 700;
-}
-
-.information li {
-  margin-bottom: 10px;
-}
-
-.information a {
-  color: #7e7e7e;
-  font-size: 15px;
-  line-height: 24px;
-}
-
-.newsletter {
-  margin-top: 30px;
-}
-
-.newsletter p {
-  color: #7e7e7e;
-  font-size: 14px;
-  line-height: 22px;
-  margin-top: 10px;
-}
-
-/* --- PAYMENT METHODS --- */
-.payment {
-  background-color: #eeeeee;
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.payment ul {
-  margin-bottom: 20px;
-}
-
-.payment li {
-  display: inline-block;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.payment p {
-  font-size: 14px;
-  color: #7e7e7e;
-  letter-spacing: 0.5px;
-}
-
-.color {
-  /* display: inline-block;
-  width: 14px;
-  height: 14px;
-  text-indent: -9999px; */
-  /* font-size: 0; */
-  /*  color: transparent; */
-  /* border-radius: 7px;
-  background: #d10000; */
-  display: inline-block;
-  width: 500px;
-  height: 500px;
-  background-color: #000000; /* hex color */
-  background-color: rgb(0, 0, 0); /* rgb color */
-  background-color: rgba(255, 35, 35, 0.2); /* rgba color */
-  background-image: url(../images/test.png);
-  background-repeat: no-repeat;
-  /* background-repeat: repeat-x;
-  background-repeat: repeat-y; */
-  background-position: left top;
-  background-position: center top;
-  background-position: right top;
-  background-position: center center;
-  background-position: 50% 30px; /* horizontal/vertical */
-  /* background-size: cover; */
-  background-size: contain;
-  background-size: 50px 150px;
-  background-size: 50% auto; /* width/height */
-  background-size: auto 60%; /* width/height */
-
-  background: rgba(255, 35, 35, 0.2) url(../images/test.png) no-repeat center
-    center;
-  background-size: contain;
-}
-
-/* teeSpace */
-.store-locator {
-  width: 1920px;
-  height: 48.8px;
-  font-size: 15px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  background-color: #f8f8f8;
-  color: #9b9b9b;
-}
-.logo-search {
-  width: 1920px;
-  height: 159.18px;
-}
-.logo-search .teespace {
-  width: 150px;
-  height: 40px;
-  margin-left: 15px;
-  padding: 0px;
-}
-.logo-search .button {
-  width: 124.2px;
+.navigation__logo {
+  left: 776px;
+  top: 48px;
+  width: 180px;
   height: 48px;
-  color: black;
+  font-family:
+    plus Jakarta Sans,
+    sans-serif;
 }
-.bottom-header {
-  width: 1420px;
-  height: 600px;
-  background-color: #2ebb77;
+.navigation nav h1 {
+  display: inline-block;
 }
-.bottom-header h2 {
+.featured__ad {
+  width: 690px;
+  height: 803px;
+  border-radius: 12px;
+}
+.featured__rating {
+  width: 177px;
+  height: 41px;
+  border-radius: 40px;
+  background-color: #f4eefa;
+  color: #b479d9;
+}
+.featured__stars {
+  display: inline-block;
+}
+.featured__stars li {
+  display: inline-block;
+}
+.featured__content h2 {
+  width: 547px;
+  height: 64px;
+  font-family:
+    plus Jakarta Sans,
+    sans-serif;
   font-size: 48px;
-  font-family: "Plus Jakarta Sans", sans-serif;
 }
-.bottom-header p {
-  font-size: 20px;
-  font-family: "Plus Jakarta Sans", sans-serif;
+.featured__content p {
+  width: 590px;
+  height: 55px;
+  font-family:
+    plus Jakarta Sans,
+    sans-serif;
   color: #7e7e7e;
 }
-.bottom-header .arrow-icon {
-  margin-left: 267px;
-  margin-top: 139.02px;
-  width: 435px;
-  height: 180.08px;
-}
-.bottom-header .curved-line {
-  margin-left: 366px;
-  margin-top: 229px;
-  width: 118px;
-  height: 22px;
-}
-.bottom-header .T-shirts {
-  margin-left: 818.77px;
-  margin-top: 127.02px;
-  width: 173.22px;
-  height: 172px;
-}
-.bottom-header .white-t-shirts {
-  margin-left: 1005.08px;
-  margin-top: 127.02px;
-  width: 198.4px;
-  height: 197px;
-}
-.bottom-header .printing-t-shirts {
-  margin-left: 825.82px;
-  margin-top: 324.02px;
-  width: 166.17px;
-  height: 165px;
-}
-.bottom-header .green-hoodie {
-  margin-left: 1004.07px;
-  margin-top: 338.02px;
-  width: 199.4px;
-  height: 198px;
-}
-.shopping-categories h2 {
-  font-size: 28px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  margin-left: 255px;
-  margin-top: 898.38;
-}
-.shopping-categories h3 {
-  font-size: 20px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-}
-.shopping-categories span {
-  font-size: 15px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  color: #7e7e7e;
-}
-.promotional-banner img {
-  width: 720px;
-  height: 390px;
-}
-.promotional-banner h3 {
-  font-size: 32px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-}
-.promotional-banner p {
-  font-size: 20px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  color: #7e7e7e;
-}
-.promotional-banner a {
-  font-size: 15px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  color: #2ebb77;
-  border-radius: 15px;
-}
-.featured-products .New-Arrivals {
-  font-size: 32px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  color: black;
-}
-.featured-products h3 {
-  font-size: 32px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  color: #7e7e7e;
-}
-.featured-products img {
-  width: 330px;
-  height: 440px;
-  border-radius: 15px;
-}
-/* ვერ გავაკეთე სურათი ფონად რაზეც იქნებოდა სპანი*/
-.hot-products h3 {
-  font: size 28px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  color: black;
-}
-.how-to-design {
-  width: 1410px;
-  height: 663.66px;
-  background-color: #b479d9;
-  border-radius: 12px;
-}
-.how-to-design h3 {
-  font: size 28px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  color: black;
-}
-.how-to-design p {
+.featured__motives p {
   font-size: 18px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  color: black;
-  font-weight: bold;
+  font-family:
+    plus Jakarta Sans,
+    sans-serif;
 }
-.designs h3 {
-  font-size: 28px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-}
-.designs img {
-  width: 330px;
-  height: 240px;
-  border-radius: 12px;
-}
-.designs h4 {
-  font-size: 18px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  color: black;
-}
-.designs p {
-  font-size: 15px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  color: #7e7e7e;
-}
-.intergrations h3 {
-  font-size: 28px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  color: black;
-}
-.intergrations img {
-  width: 218px;
-  height: 85.11px;
-}
-.newslatter img {
-  width: 720px;
-  height: 461.55px;
-}
-/*background ფოტო ვერ გავაკეთე */
-.newslatter .personal-information h3 {
-  font-size: 28px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  color: black;
-}
-.newslatter .featured-designs img {
-  width: 266px;
-  height: 266px;
-  border-radius: 12px;
-}
-.footer-top h4 {
-  font-size: 28px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  color: black;
-}
-.footer-top img {
-  width: 20px;
-  height: 36px;
-}
-.footer-top strong {
-  font-size: 20px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: bold;
-  color: black;
-}
-.footer-top .bold {
-  font-size: 18px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: bold;
-  color: black;
-}
-.footer-bottom img {
-  width: 45px;
-  height: 20px;
+.featured__motives img {
+  border-radius: 16px;
+  background-color: #e2f5f2;
 }
 
-/* lab */
-/* a {
+.featured__motives ul {
   display: inline-block;
-  display: block;
-  background: #932ebb;
 }
-p {
-  background: pink;
+
+.featured__item {
+  width: 226px;
+  height: 56px;
+  color: #ffffff;
+  background-color: #2ebb77;
+  border-radius: 12px;
 }
-h2 {
+.featured__unique img {
+  width: 30px;
+  height: 30px;
+  padding-top: 7px;
+  padding-left: 6px;
+  border-radius: 15px;
+  background-color: white;
+  border-color: black;
+}
+.collections__products h3 {
+  text-align: center;
+  font-family: plus jakarta sans-serif;
+  font-size: 40px;
+}
+.collections__products p {
+  text-align: center;
+  font-family: plus jakarta sans-serif;
+  font-size: 20px;
+}
+.collections__products li {
+  width: 288px;
+  height: 300px;
   display: inline-block;
-  display: inline;
-  padding: 50px;
-  background: fuchsia;
-} */
-.templates-bock {
-  /* width: 690px; */
-  width: 35.94%;
-  max-width: 690px;
-  /* min-width: 320px; */
-  min-height: 360px;
-  padding: 57px 419px 68px 42px;
-  border-radius: 12px;
-  background: url(../images/thousands-of-free-temp.png) no-repeat center center;
-  background-size: cover;
-  /* box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.13); */
 }
-
-.templates-bock__title-elem,
-.templates-bock__paragraph-elemnt,
-.templates-bock__button-elem {
-  max-width: 229px;
+.types__item {
+  display: inline-block;
 }
-
-.templates-bock__title-elem {
-  margin-bottom: 17px;
+.products__sell h2 {
+  color: linear;
+  text-align: center;
+  font-size: 72px;
+  font-family: plus jakarta sans-serif;
 }
-
-.templates-bock__title-elem a {
-  color: #000000;
-  font-size: 32px;
-  line-height: 45px;
-  font-family: Arial, Helvetica, sans-serif;
+.products__sell h3 {
+  text-align: center;
+  font-size: 40px;
+  font-family: plus jakarta sans-serif;
 }
-
-.templates-bock__paragraph-elemnt {
+.products__sell p {
   color: #7e7e7e;
-  font-size: 18px;
-  line-height: 33px;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-bottom: 31px;
+  text-align: center;
 }
-
-.templates-bock__button-elem {
-  color: #fff;
-  font-size: 15px;
-  line-height: 48px;
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 14px 25px;
+.products__sell li {
+  display: inline-block;
+}
+.products__sell img {
   border-radius: 12px;
+}
+.products__sell p {
+  font-weight: bold;
+  color: black;
+}
+.discount {
+  background-color: #f8f8f8;
+}
+.discount__content span {
+  font-size: 14px;
+  color: #b479d9;
+}
+.discount__content h3 {
+  font-size: 40px;
+  color: black;
+}
+.discount__content p {
+  font-size: 18px;
+  color: #7e7e7e;
+}
+.discount__content time {
+  font-size: 40px;
+}
+.discount__content a {
+  width: 210px;
+  height: 56px;
+  font-size: 16px;
+  border-radius: 12px;
+  color: #ffffff;
   background-color: #2ebb77;
 }
-
-.templates-bock__button-elem--violt-modifier {
-  background-color: #932ebb;
+.discount__photos span {
+  font-size: 24px;
+  border-radius: 78px;
+  background-color: #b479d9;
+}
+.discount__photos img {
+  border-radius: 12px;
+}
+.design__order h3 span {
+  font-size: 72px;
+}
+.design__order li {
+  display: inline-block;
+}
+.price-off__explore h3 {
+  text-align: center;
+  font-size: 40px;
+}
+.price-off__explore p {
+  text-align: center;
+  font-size: 20px;
+  color: #7e7e7e;
+}
+.price-off__list li {
+  display: inline-block;
+}
+.price-off__offers li {
+  display: inline-block;
+  background-color: #d9d9d9;
+}
+.article__info h3 {
+  font-size: 40px;
+}
+.article__info p {
+  font-size: 20px;
+}
+.article__info a {
+  font-size: 18px;
+  color: #2ebb77;
+}
+.article__list li {
+  display: inline-block;
+}
+.article__list img {
+  width: 330px;
+  height: 213px;
+  border-radius: 12px;
+}
+.article__promotion img {
+  background-image: url(banner.jpg);
+}
+.article__promotion h3 {
+  font-size: 48px;
+}
+.article__promotion p {
+  font-size: 20px;
+}
+.article__promotion a {
+  width: 157px;
+  height: 48px;
+  display: inline-block;
+  background-color: white;
+  border-radius: 12px;
 }
 
-.templates-bock__button-elem:hover {
-  color: blue;
-  background: #d10000;
+.bottom__top ul {
+  display: inline-block;
 }
-/* end of lab */
+.bottom__underside ul {
+  display: inline-block;
+}
+.bottom__companies li {
+  display: inline-block;
+}
+.bottom__white li {
+  display: inline-block;
+}
+.bottom__underside {
+  display: inline-block;
+}
