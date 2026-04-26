@@ -18,8 +18,14 @@ li {
 
 a {
   text-decoration: none;
+  color: black;
 }
-
+button {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
 /* end of global */
 .sale {
   width: 100%;
@@ -29,9 +35,6 @@ a {
 }
 .sale h2 {
   text-align: center;
-  font-family:
-    plus Jakarta Sans,
-    sans-serif;
   font-size: 15px;
   padding-left: 787px;
   padding-top: 1px;
@@ -39,12 +42,6 @@ a {
 .sale img {
   width: 12px;
   height: 12px;
-  /* margin-left: 1885px;
-  margin-top: 10px; */
-}
-.navigation {
-  /* width: 1920px;
-  height: 80px; */
 }
 .navigation__list {
   list-style: none;
@@ -62,25 +59,9 @@ a {
   font-weight: bold;
 }
 
-/* .navigation__item:nth-child(2) {
-  left: 91px;
-  top: 40px;
+.navigation__list li a {
+  display: inline-block;
 }
-
-.navigation__item:nth-child(3) {
-  left: 210px;
-  top: 40px;
-}
-
-.navigation__item:nth-child(4) {
-  left: 296px;
-  top: 40px;
-}
-
-.navigation__item:nth-child(5) {
-  left: 376px;
-  top: 40px;
-} */
 
 .navigation__list a {
   text-decoration: none;
@@ -88,25 +69,21 @@ a {
   font-weight: bold;
 }
 .navigation__logo {
-  left: 776px;
-  top: 48px;
+  display: inline-block;
   width: 180px;
   height: 48px;
-  font-family:
-    plus Jakarta Sans,
-    sans-serif;
 }
 .navigation nav h1 {
   display: inline-block;
 }
 .featured__ad {
-  /*  width: 690px;
-  height: 803px; */
+  width: 57.5%;
+  height: 89.2%;
   border-radius: 12px;
 }
 .featured__rating {
-  /*   width: 177px;
-  height: 41px; */
+  width: 14.75%;
+  height: 20.5%;
   border-radius: 40px;
   background-color: #f4eefa;
   color: #b479d9;
@@ -128,11 +105,9 @@ a {
   font-size: 48px;
 }
 .featured__content p {
-  /* width: 590px;
-  height: 55px; */
-  font-family:
-    plus Jakarta Sans,
-    sans-serif;
+  width: 59%;
+  height: 27.5%;
+  font-family: "Plus Jakarta Sans", sans-serif;
   color: #7e7e7e;
 }
 .featured__motives p {
@@ -249,6 +224,7 @@ a {
 .design__order li {
   display: inline-block;
 }
+
 .price-off__explore h3 {
   text-align: center;
   font-size: 40px;
@@ -286,7 +262,7 @@ a {
 .article__promotion {
   /* min-width: 400px;
   max-width: 1200px; */
- /*  min-height: 450px; */
+  /*  min-height: 450px; */
   /* max-height: 600px; */
   /* background: #64cb9a url(../images/banner.png);
   background-repeat: no-repeat;
@@ -318,7 +294,18 @@ a {
   background-color: white;
   border-radius: 12px;
 }
-
+.bottom__list li {
+  color: #7e7e7e;
+}
+#subscribe {
+  width: 258px;
+  height: 56px;
+  color: white;
+  background-color: #2ebb77;
+  border-radius: 12px;
+  text-align: center;
+  padding: middle;
+}
 .bottom__top ul {
   display: inline-block;
 }
