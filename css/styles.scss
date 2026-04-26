@@ -1,0 +1,75 @@
+@use "variables" as *;
+@use "typography" as *;
+@use "functions" as *;
+
+/* @import url(_variables.scss); */
+/* https://sass-lang.com/ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.center {
+  width: Percent(1440); /* 1440 */
+  /* @include font-style($font-ssm, $primary-color, "arial", LineHeight(16, 30)); */
+  margin: auto;
+  background: pink;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+button {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+/* end of global */
+
+/* home */
+.design {
+  width: 100%;
+  margin-bottom: 93px;
+  background: pink;
+
+  &__title {
+    width: 100%;
+    height: 100px;
+    @include font-style(
+      72px,
+      $purple-background,
+      "arial",
+      normal,
+      LineHeight(72, 100),
+      3px
+    );
+    padding-left: Percent(50);
+    margin-bottom: 68px;
+    overflow: hidden;
+  }
+
+  &__promotion {
+    display: inline-block;
+    width: Percent(690, 1440); /* 690 */
+    min-height: Rem(360);
+    margin-right: Percent(30, 1440);
+    border-radius: $border-radius;
+    background: url(../images/promotional-banner-first.png) no-repeat left top;
+    background-size: auto 100%;
+
+    &--purple-bg {
+      background: url(../images/promotional-banner-second.png) no-repeat left
+        top;
+      background-size: auto 100%;
+      margin-right: 0;
+    }
+  }
+}
+/* End of Home */

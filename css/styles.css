@@ -1,0 +1,67 @@
+/* @import url(_variables.scss); */
+/* https://sass-lang.com/ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.center {
+  width: 75%; /* 1440 */
+  /* @include font-style($font-ssm, $primary-color, "arial", LineHeight(16, 30)); */
+  margin: auto;
+  background: pink;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
+/* end of global */
+/* home */
+.design {
+  width: 100%;
+  margin-bottom: 93px;
+  background: pink;
+}
+.design__title {
+  width: 100%;
+  height: 100px;
+  color: #B479D9;
+  font-size: 72px;
+  line-height: 1.3888888889;
+  font-family: "arial";
+  font-weight: normal;
+  letter-spacing: 3px;
+  padding-left: 2.6041666667%;
+  margin-bottom: 68px;
+  overflow: hidden;
+}
+.design__promotion {
+  display: inline-block;
+  width: 47.9166666667%; /* 690 */
+  min-height: 22.5rem;
+  margin-right: 2.0833333333%;
+  border-radius: 12px;
+  background: url(../images/promotional-banner-first.png) no-repeat left top;
+  background-size: auto 100%;
+}
+.design__promotion--purple-bg {
+  background: url(../images/promotional-banner-second.png) no-repeat left top;
+  background-size: auto 100%;
+  margin-right: 0;
+}
+
+/* End of Home *//*# sourceMappingURL=styles.css.map */
