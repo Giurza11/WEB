@@ -9,7 +9,7 @@
   <body>
     <header>
       <section class="sale">
-        <div>
+        <div class="sale__container">
           <h2>FREE SHIPPING ON ALL U.S. ORDERS $50+</h2>
           <img src="images/X.png" alt="close" />
         </div>
@@ -17,11 +17,21 @@
       <section class="navigation">
         <nav>
           <ul class="navigation__list">
-            <li id="green"><a href="#">Home</a></li>
-            <li class="navigation__item"><a href="#">TeeSpace</a></li>
-            <li class="navigation__item"><a href="#">Shop</a></li>
-            <li class="navigation__item"><a href="#">Blog</a></li>
-            <li class="navigation__item"><a href="#">Pages</a></li>
+            <li id="green">
+              <a href="#">Home</a> <a class="downgrade">&#8964;</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#">TeeSpace</a><a class="downgrade">&#8964;</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#">Shop</a><a class="downgrade">&#8964;</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#">Blog</a><a class="downgrade">&#8964;</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#">Pages</a><a class="downgrade">&#8964;</a>
+            </li>
           </ul>
         </nav>
         <h1 class="navigation__logo">
@@ -50,7 +60,7 @@
               <img src="images/Text.png" alt="Shopping cart" />
             </a>
           </li>
-          <li class="sidebar__item">
+          <li class="sidebar__items">
             <a href="#">Let's Talk</a>
           </li>
         </ul>
@@ -58,12 +68,12 @@
     </header>
     <main>
       <section class="featured">
+        <img
+          src="images/cyan-blue-hoodies.png"
+          class="featured__ad"
+          alt="models"
+        />
         <div class="featured__content">
-          <img
-            src="images/cyan-blue-hoodies.png"
-            class="featured__ad"
-            alt="models"
-          />
           <span class="featured__rating">Rated 4.9 of 5.0</span>
           <ul class="featured__stars">
             <li><img src="images/yellow-star.png" alt="Rating" /></li>
@@ -72,28 +82,42 @@
             <li><img src="images/yellow-star.png" alt="Rating" /></li>
             <li><img src="images/yellow-star.png" alt="Rating" /></li>
           </ul>
-          <h2>Enjoy up your vacations in the best T-shirts</h2>
-          <p>
+          <h2>
+            Enjoy up your vacations<br />
+            in the best T-shirts
+          </h2>
+          <p class="featured__paragraph">
             What's more, we do it right! A full administration printing
-            background. Print shirts for yourself or your online business
+            background.<br />
+            Print shirts for yourself or your online business
           </p>
           <ul class="featured__motives">
-            <li>
+            <li class="featured__tick">
               <img src="images/tick.png" alt="tick" />
+            </li>
+            <li>
               <p>Top quality prints using the latest technology</p>
             </li>
-            <li>
+          </ul>
+          <ul class="featured__motivestwo">
+            <li class="featured__tick">
               <img src="images/tick.png" alt="tick" />
+            </li>
+            <li>
               <p>Mix and match colors, sizes, and designs</p>
             </li>
-            <li class="featured__item">
+          </ul>
+          <ul class="featured__item">
+            <li class="featured__start">
               <a href="#">Get Started Today</a>
             </li>
             <li class="featured__unique">
               <a href="#">
                 <p>How We Work</p>
-                <img src="images/play.png" alt="Play" />
               </a>
+            </li>
+            <li class="featured__play">
+              <img src="images/play.png" alt="Play" />
             </li>
           </ul>
         </div>

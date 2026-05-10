@@ -2,22 +2,25 @@
 @use "typography" as *;
 @use "functions" as *;
 
-/* @import url(_variables.scss); */
-/* https://sass-lang.com/ */
+/* global */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
 .center {
-  width: Percent(1440); /* 1440 */
-  /* @include font-style($font-ssm, $primary-color, "arial", LineHeight(16, 30)); */
+  width: Percent(1440, 1440);
   margin: auto;
   background: pink;
 }
 
-li {
+ul {
   list-style-type: none;
 }
 
@@ -25,15 +28,197 @@ a {
   text-decoration: none;
   color: black;
 }
+
 button {
   border: none;
   outline: none;
   background: none;
   cursor: pointer;
 }
+
 /* end of global */
 
 /* home */
+
+.sale {
+  &__container {
+    height: 40px;
+    text-align: center;
+    position: relative;
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+      color: #b479d9;
+      display: inline-block;
+    }
+
+    img {
+      position: absolute;
+      right: Percent(24, 1440);
+    }
+  }
+}
+
+.navigation {
+  width: Percent(1440, 1440);
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-left: Percent(38.39, 1440);
+  padding-right: Percent(38.39, 1440);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__list {
+    display: flex;
+    gap: 46.68px;
+  }
+
+  &__item,
+  #green {
+    a {
+      color: black;
+      text-decoration: none;
+    }
+
+    &:hover {
+      a {
+        color: #2ebb77;
+      }
+    }
+  }
+
+  &__logo {
+    width: Percent(160, 1363.22);
+    margin: 0;
+    img {
+      width: 100%;
+      display: block;
+    }
+  }
+}
+
+.sidebar {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  &__items {
+    border-radius: 12px;
+    border: 2px solid #f4eefa;
+    width: percent(101, 1440);
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__item {
+    img {
+      display: block;
+    }
+  }
+}
+
+.featured {
+  width: Percent(1440, 1440);
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-left: Percent(38, 1440);
+  padding-right: Percent(38, 1440);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: Percent(90, 1364);
+
+  &__ad {
+    width: Percent(491.04, 1364);
+  }
+
+  &__content {
+    width: Percent(613.8, 1364);
+  }
+
+  &__rating {
+    display: inline-block;
+    border-radius: 40px;
+    color: #b479d9;
+    background-color: #f8f8f8;
+    padding: 8px Percent(16, 613.8);
+    margin-right: Percent(12, 613.8);
+  }
+
+  &__stars {
+    display: inline-flex;
+    gap: 4px;
+
+    li {
+      display: inline-block;
+    }
+  }
+
+  h2 {
+    margin-top: 30px;
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  &__paragraph {
+    margin-top: 24px;
+    color: #7e7e7e;
+    line-height: 30px;
+  }
+
+  &__motives,
+  &__motivestwo {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    gap: Percent(15, 613.8);
+
+    li {
+      display: inline-block;
+    }
+  }
+
+  &__tick {
+    border-radius: 16px;
+    background-color: #e2f5f2;
+  }
+
+  &__item {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: Percent(30, 613.8);
+  }
+
+  &__start {
+    border-radius: 12px;
+    background-color: #2ebb77;
+    height: 56px;
+    width: Percent(225, 613.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+      color: white;
+    }
+  }
+
+  &__play {
+    border-radius: 15px;
+    border: 2px solid black;
+    width: Percent(30, 613.8);
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 .design {
   width: 100%;
   margin-bottom: 93px;
@@ -55,6 +240,10 @@ button {
     overflow: hidden;
   }
 
+  &__container {
+    background-color: #b479d9;
+  }
+
   &__promotion {
     display: inline-block;
     width: Percent(690, 1440); /* 690 */
@@ -72,4 +261,5 @@ button {
     }
   }
 }
-/* End of Home */
+
+/* end of home */
