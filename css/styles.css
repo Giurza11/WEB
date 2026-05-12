@@ -220,4 +220,49 @@ button {
   margin-right: 0;
 }
 
+.collections__products {
+  position: relative;
+}
+.collections__products h2 {
+  width: percent(544, 1440);
+  text-align: center;
+  padding-top: 30px;
+}
+.collections__products p {
+  width: percent(259, 1440);
+  text-align: center;
+  padding-top: 16px;
+  color: #7e7e7e;
+}
+
+.collections__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.0833333333%;
+  padding-top: 78px;
+}
+.collections__list__item {
+  width: 14.5833333333%;
+  height: 14.5833333333%;
+  border-radius: 105px;
+  position: relative;
+}
+.collections__list span {
+  color: #7e7e7e;
+}
+
+.types {
+  width: 100%;
+}
+.types__list {
+  display: flex;
+  gap: 2.083%;
+  padding-left: 209px;
+  padding-top: 101px;
+}
+.types__list img {
+  width: 337px;
+}
+
 /* end of home *//*# sourceMappingURL=styles.css.map */

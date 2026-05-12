@@ -261,5 +261,49 @@ button {
     }
   }
 }
+.collections__products {
+  position: relative;
+  h2 {
+    width: percent(544, 1440);
+    text-align: center;
+    padding-top: 30px;
+  }
+  p {
+    width: percent(259, 1440);
+    text-align: center;
+    padding-top: 16px;
+    color: #7e7e7e;
+  }
+}
+.collections__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: Percent(30, 1440);
+  padding-top: 78px;
+
+  &__item {
+    width: Percent(210, 1440);
+    height: Percent(210, 1440);
+    border-radius: 105px;
+    position: relative;
+  }
+  span {
+    color: #7e7e7e;
+  }
+}
+.types {
+  width: 100%;
+
+  &__list {
+    display: flex;
+    gap: 2.083%;
+    padding-left: 209px;
+    padding-top: 101px;
+    img {
+      width: 337px; // backfound ვერ გავაკეთე :)
+    }
+  }
+}
 
 /* end of home */
