@@ -1,3 +1,0 @@
-@function Percent($px, $parentSize: 1920) {
-  @return ($px * 100 / $parentSize) * 1%;
-}

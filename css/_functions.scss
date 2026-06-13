@@ -1,11 +1,3 @@
-@function Rem($px, $base: 16) {
-  @return ($px / $base) * 1rem;
-}
-
 @function Percent($px, $parentSize: 1920) {
   @return ($px * 100 / $parentSize) * 1%;
-}
-
-@function LineHeight($fontSize, $LineHeight) {
-  @return ($LineHeight / $fontSize);
 }

@@ -1,3 +1,4 @@
+@use "functions" as *;
 /* global */
 * {
   box-sizing: border-box;
@@ -93,14 +94,21 @@ img {
   &__content {
     position: relative;
     height: 640px;
+    overflow: hidden;
   }
 
   &__image {
+    width: auto;
+    min-height: 100%;
     position: absolute;
-    top: 0;
+    /* top: 0;
     left: 0;
-    width: 100%;
-    height: 640px;
+    right: 0;
+    bottom: 0;
+    margin: auto; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   &__card {
@@ -219,7 +227,7 @@ img {
 
   &__card {
     position: relative;
-    width: calc(25% - 24px);
+    width: Percent(285, 1236);
     background-color: #f4f5f7;
     text-align: left;
 
@@ -368,85 +376,50 @@ img {
     font-size: 40px;
   }
 
-  ul {
-    position: relative;
-    max-width: 1440px;
-    height: 680px;
-    margin: auto;
-  }
+  &__image {
+    &-wrapper {
+      display: flex;
+      height: 780px;
+      position: relative;
+      background: pink;
+    }
 
-  li {
-    position: absolute;
-    background-color: #f4f5f7;
-    overflow: hidden;
-  }
+    &-item {
+      display: flex;
+      position: absolute;
+      overflow: hidden;
 
-  img {
-    width: 100%;
-    height: 100%;
-  }
+      &:nth-of-type(1) {
+        width: 451px;
+        height: 312px;
+        top: 50px;
+        left: 50px;
+      }
 
-  &__item--one {
-    left: 0;
-    top: 0;
-    width: 8%;
-    height: 320px;
-  }
+      &:nth-of-type(2) {
+        width: 451px;
+        height: 312px;
+        top: 100px;
+        left: 551px;
+      }
 
-  &__item--two {
-    left: 9%;
-    top: 80px;
-    width: 30%;
-    height: 240px;
-  }
+      &:nth-of-type(3) {
+        width: 451px;
+        height: 312px;
+        top: 451px;
+        left: 150px;
+      }
 
-  &__item--three {
-    left: 40%;
-    top: 160px;
-    width: 16%;
-    height: 320px;
-  }
-
-  &__item--four {
-    left: 57%;
-    top: 80px;
-    width: 24%;
-    height: 320px;
-  }
-
-  &__item--five {
-    right: 0;
-    top: 0;
-    width: 17%;
-    height: 400px;
-  }
-
-  &__item--six {
-    left: 0;
-    top: 340px;
-    width: 16%;
-    height: 240px;
-  }
-
-  &__item--seven {
-    left: 17%;
-    top: 340px;
-    width: 22%;
-    height: 240px;
-  }
-
-  &__item--eight {
-    left: 57%;
-    top: 420px;
-    width: 16%;
-    height: 240px;
-  }
-
-  &__item--nine {
-    right: 0;
-    top: 420px;
-    width: 26%;
-    height: 180px;
+      & img {
+        display: inline-block;
+        width: auto;
+        height: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
   }
 
   @media (max-width: 900px) {
@@ -480,7 +453,7 @@ img {
   flex-wrap: wrap;
   gap: 72px;
 
-  > div {
+  & > div {
     width: 30%;
   }
 
