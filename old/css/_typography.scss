@@ -1,0 +1,15 @@
+@mixin font-style(
+  $size: 16px,
+  $color: #fff,
+  $family,
+  $fontWeight: normal,
+  $lineHeight: 1.2,
+  $letterSpacing: 0
+) {
+  color: $color;
+  font-size: $size;
+  line-height: $lineHeight;
+  font-family: $family;
+  font-weight: $fontWeight;
+  letter-spacing: $letterSpacing;
+}

@@ -1,0 +1,17 @@
+.design div {
+  display: inline-block;
+}
+.design__promotion {
+  background: url(/images/promotional-banner-first.png);
+  border-radius: 12px;
+  background-repeat: no-repeat;
+  top: 4862px;
+  left: 255px;
+}
+.design__promo {
+  background: url(/images/promotional-banner-second.png);
+  border-radius: 12px;
+  background-repeat: no-repeat;
+  top: 4862px;
+  left: 960px;
+}
